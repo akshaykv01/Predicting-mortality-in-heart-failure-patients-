@@ -34,6 +34,20 @@ helping support clinical decision-making.
 
 ---
 
+## 📊 Heart Failure Mortality Analysis | Power BI Dashboard
+
+I developed this Power BI dashboard to explore the key drivers of mortality in heart failure patients. The goal was to create an intuitive tool that translates complex clinical records into actionable visual insights for better understanding and analysis.
+
+### ✨ Key Highlights:
+- **Mortality risk analysis** based on key demographics and pre-existing medical conditions
+- **Visual comparison** of critical clinical indicators (like Serum Creatinine and Ejection Fraction) between patient outcomes
+- **Dynamic slicers and KPI cards** for immediate insights and deep-dive exploration into the data
+
+### 📊 Tools Used: 
+Power BI
+
+---
+
 ## 🗂️ Dataset
 
 - **Source:** [Heart Failure Clinical Records Dataset — UCI / Kaggle](https://www.kaggle.com/datasets/andrewmvd/heart-failure-clinical-data)
@@ -49,6 +63,7 @@ helping support clinical decision-making.
 - **Language:** Python
 - **Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, TensorFlow/Keras, 
   Imbalanced-learn (SMOTE), Matplotlib, Seaborn
+- **Visualization:** Power BI
 
 ---
 
@@ -77,8 +92,10 @@ helping support clinical decision-making.
 ---
 
 ## 📁 Project Structure
+```
 heart-failure-prediction/
-├── heart_failure_prediction.ipynb   ← Main notebook
-├── heart_failure_clinical_records_dataset.csv  ← Dataset
+├── Predicting mortality in heart failure patients.ipynb   ← Main notebook
+├── Predicting-mortality-in-heart-failure-patients-PowerBI.png  ← Dashboard
 ├── requirements.txt
 └── README.md
+```

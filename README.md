@@ -77,3 +77,8 @@ helping support clinical decision-making.
 ---
 
 ## 📁 Project Structure
+heart-failure-prediction/
+├── heart_failure_prediction.ipynb   ← Main notebook
+├── heart_failure_clinical_records_dataset.csv  ← Dataset
+├── requirements.txt
+└── README.md

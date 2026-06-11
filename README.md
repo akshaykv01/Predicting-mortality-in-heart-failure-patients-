@@ -38,13 +38,18 @@ helping support clinical decision-making.
 
 I developed this Power BI dashboard to explore the key drivers of mortality in heart failure patients. The goal was to create an intuitive tool that translates complex clinical records into actionable visual insights for better understanding and analysis.
 
+![Power BI Dashboard](Predicting-mortality-in-heart-failure-patients-PowerBI.png)
+
 ### ✨ Key Highlights:
-- **Mortality risk analysis** based on key demographics and pre-existing medical conditions
-- **Visual comparison** of critical clinical indicators (like Serum Creatinine and Ejection Fraction) between patient outcomes
-- **Dynamic slicers and KPI cards** for immediate insights and deep-dive exploration into the data
+
+- **Mortality Risk Analysis** — Based on key demographics and pre-existing medical conditions
+- **Visual Comparison** — Critical clinical indicators (Serum Creatinine, Ejection Fraction) between patient outcomes
+- **Dynamic Slicers & KPI Cards** — Immediate insights and deep-dive exploration into the data
+- **Interactive Visualizations** — Drill-down capabilities for granular patient analysis
+- **Clinical Indicators Tracking** — Real-time monitoring of key health metrics
 
 ### 📊 Tools Used: 
-Power BI
+**Power BI** — Advanced data visualization and business intelligence
 
 ---
 
@@ -64,6 +69,7 @@ Power BI
 - **Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, TensorFlow/Keras, 
   Imbalanced-learn (SMOTE), Matplotlib, Seaborn
 - **Visualization:** Power BI
+- **AI Integration:** Google Gemini API
 
 ---
 
@@ -99,3 +105,36 @@ heart-failure-prediction/
 ├── requirements.txt
 └── README.md
 ```
+
+---
+
+## 📈 How to Use the Dashboard
+
+1. **Load the Data** — Use the CSV file or connect directly to your data source
+2. **Interact with Slicers** — Filter by age group, gender, medical conditions
+3. **Explore KPIs** — View mortality rates and critical patient metrics
+4. **Deep-Dive Analysis** — Click on visualizations to explore patient segments
+5. **Export Insights** — Generate reports for clinical decision support
+
+---
+
+## 🚀 Future Enhancements
+
+- Deploy models as APIs for real-time predictions
+- Integrate with Electronic Health Record (EHR) systems
+- Expand dashboard with predictive analytics
+- Implement automated alert systems for high-risk patients
+
+---
+
+## 📝 License
+
+This project is open source and available for educational and research purposes.
+
+---
+
+## 👨‍💻 Author
+
+**Akshay KV** — Machine Learning & Data Visualization Enthusiast
+
+Feel free to reach out for collaboration or questions!
